@@ -11,10 +11,12 @@ console.log(userSurname);
 // poi chiedi il suo colore preferito
 
 let favColor = prompt("what's your favorite color?");
-console.log(userSurname);
+console.log(favColor);
 
 // Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepreferito21 
 
-let generatedPasword= userName + userSurname + favColor + 21;
-let getElement = document.getElementById("userPasword");
-getElement.innerHTML = "Your generated pasword is: " + generatedPasword;
+let generatedPassword= userName + userSurname + favColor + 21;
+let element = document.getElementById("userPassword");
+element.innerHTML = "Your generated password is: " + generatedPassword;
+
+window.document.getElementById("userPassword")
