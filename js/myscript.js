@@ -15,5 +15,6 @@ console.log(userSurname);
 
 // Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepreferito21 
 
-let generatedPasword= userName + userSurname + favColor + 21
-document.getElementById("userPasword").innerHTML = "Your generated pasword is: " + generatedPasword
+let generatedPasword= userName + userSurname + favColor + 21;
+let getElement = document.getElementById("userPasword");
+getElement.innerHTML = "Your generated pasword is: " + generatedPasword;
